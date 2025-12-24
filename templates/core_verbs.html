@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <nav class="main-nav">
+    <a href="/concrete-nouns">Concrete Nouns</a>
+    <a href="/core-verbs" class="active">Core Verbs</a>
+    <a href="/adjectives">Adjectives</a>
+    <a href="/culture">Culture</a>
+    <a href="/elementary-phrases">Elementary Phrases</a>
+    <a href="/" class="home-btn">Home</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Core Verbs</h1>
+    <p>Learn essential actions in Ngemba</p>
+  </div>
+
+  <div class="grid-container">
+    <div class="grid">
+      {% for card in cards %}
+      <div class="grid-box {{ ['red', 'green', 'orange', 'blue'][loop.index0 % 4] }}" data-audio="{{ url_for('static', filename='audio/' + card.audio) }}">
+        <img src="{{ url_for('static', filename='img/' + card.img) }}" alt="{{ card.en }}" />
+        <div class="label">{{ card.en }}</div>
+      </div>
+      {% endfor %}
+      
+      <!-- Empty boxes to fill the grid -->
+      {% for i in range(20 - cards|length) %}
+      <div class="grid-box {{ ['red', 'green', 'orange', 'blue'][i % 4] }}"></div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="footer">
+    <p class="copyright">© 2025 Learn Ngemba. Open educational project for Ngemba language preservation.</p>
+    <div class="flag-stripe"></div>
+  </div>
+
+  <script>
+    let currentAudio = null;
+
+    document.querySelectorAll('.grid-box').forEach(box => {
+      box.addEventListener('click', function() {
+        const audioSrc = this.dataset.audio;
+        if (!audioSrc) return;
+
+        if (currentAudio) {
+          currentAudio.pause();
+          currentAudio.currentTime = 0;
+        }
+
+        currentAudio = new Audio(audioSrc);
+        currentAudio.play();
+      });
+    });
+  </script>
+{% endblock %}
