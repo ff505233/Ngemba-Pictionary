@@ -6,5 +6,155 @@
     "img": "banana.jpg",
     "audio": "banana.mp3",
     "category": "concrete_nouns"
+  },
+  {
+    "id": "Bitter",
+    "en": "Bitter",
+    "ng": "—",
+    "img": "Bitter-amer.png",
+    "audio": "Bitter-amernormy.mp3",
+    "category": "adjectives"
+  },
+  {
+    "id": "Strong",
+    "en": "Strong",
+    "ng": "—",
+    "img": "Strong-fort.png",
+    "audio": "Strong-fortnormy.mp3",
+    "category": "adjectives"
+  },
+  {
+    "id": "Dark",
+    "en": "Dark",
+    "ng": "—",
+    "img": "Sombre-dark.jpg",
+    "audio": "Sombre-darknorm.mp3",
+    "category": "adjectives"
+  },
+  {
+    "id": "Sweet",
+    "en": "Sweet",
+    "ng": "—",
+    "img": "Sucre-sweet.png",
+    "audio": "Sucre-sweetnormy.mp3",
+    "category": "adjectives"
+  },
+  {
+    "id": "Dry",
+    "en": "Dry",
+    "ng": "—",
+    "img": "Sec-dry.png",
+    "audio": "Sec-dry.mp3",
+    "category": "adjectives"
+  },
+  {
+    "id":"Hard",
+    "en":"Hard",
+    "ng":"—",
+    "img":"Dur-hard.png",
+    "audio":"Dur-hard.mp3",
+    "category":"adjectives"
+  },
+  {
+    "id":"Long",
+    "en":"Long",
+    "ng":"—",
+    "img":"Long.png",
+    "audio":"Long.mp3",
+    "category":"adjectives"
+  },
+  {
+    "id":"Open",
+    "en":"Open",
+    "ng":"—",
+    "img":"Ouvert-open.png",
+    "audio":"Ouvert-open.mp3",
+    "category":"adjectives"
+  },
+  {
+    "id":"Empty",
+    "en":"Empty",
+    "ng":"—",
+    "img":"Vide-empty.png",
+    "audio":"Vide-empty.mp3",
+    "category":"adjectives"
+  },
+  {
+    "id":"Dirty",
+    "en":"Dirty",
+    "ng":"—",
+    "img":"Sale-dirty.png",
+    "audio":"Sale-dirty.mp3",
+    "category":"adjectives"
+  },
+  {
+    "id":"Clean",
+    "en":"Clean",
+    "ng":"—",
+    "img":"Propre-clean.png",
+    "audio":"Propre-clean.mp3",
+    "category":"adjectives"
+  },
+  {
+    "id":"Bad",
+    "en":"Bad",
+    "ng":"—",
+    "img":"Mauvais-bad.png",
+    "audio":"Mauvais-bad.mp3",
+    "category":"adjectives",
+    "color": "green"
+  },
+  {
+    "id":"Good",
+    "en":"Good",
+    "ng":"—",
+    "img":"Bon-good.png",
+    "audio":"Bon-good.mp3",
+    "category":"adjectives"
+  },
+  {
+    "id":"New",
+    "en":"New",
+    "ng":"—",
+    "img":"Nouveau-new.png",
+    "audio":"Nouveau-new.mp3",
+    "category":"adjectives"
+  },
+  {
+    "id":"Cold",
+    "en":"Cold",
+    "ng":"—",
+    "img":"Froid-cold.png",
+    "audio":"Froid-cold.mp3",
+    "category":"adjectives"
+  },
+  {
+    "id":"Hot",
+    "en":"Hot",
+    "ng":"—",
+    "img":"Chaud-hot.png",
+    "audio":"Chaud-hot.mp3",
+    "category":"adjectives"
+  },
+  {
+    "id":"Short",
+    "en":"Short",
+    "ng":"—",
+    "img":"Court-short.png",
+    "audio":"Court-short.mp3",
+    "category":"adjectives",
+    "color": "orange"
+  },
+  {
+    "id":"Big/Tall",
+    "en":"Big/Tall",
+    "ng":"—",
+    "img":"Grand-big.png",
+    "audio":"Grand-big.mp3",
+    "category":"adjectives",
+    "color": "orange"
   }
+
+
 ]
+

@@ -18,8 +18,8 @@
   <div class="grid-container">
     <div class="grid">
       {% for card in cards %}
-      <div class="grid-box {{ ['red', 'green', 'orange', 'blue'][loop.index0 % 4] }}" data-audio="{{ url_for('static', filename='audio/' + card.audio) }}">
-        <img src="{{ url_for('static', filename='img/' + card.img) }}" alt="{{ card.en }}" />
+      <div class="grid-box {{ card.color if card.color else ['red', 'green', 'orange', 'blue'][loop.index0 % 4] }}" data-audio="{{ url_for('static', filename='audio/' + card.audio) }}">
+        <img src="{{ url_for('static', filename='img/' + card.img) }}" alt="{{ card.en }}" {% if card.img == 'Long.png' %}class="long-image"{% endif %} />
         <div class="label">{{ card.en }}</div>
       </div>
       {% endfor %}
