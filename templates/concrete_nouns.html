@@ -15,9 +15,21 @@
     <p>Learn everyday objects in Ngemba</p>
   </div>
 
+  <!-- Quick Navigation -->
+  <div class="quick-nav">
+    <a href="#animals" class="quick-nav-link">Animals</a>
+    <a href="#objects" class="quick-nav-link">Objects</a>
+    <a href="#nature" class="quick-nav-link">Nature</a>
+  </div>
+
+  <!-- Animals Section -->
+  {% if animals %}
+  <div id="animals" class="section-header">
+    <h2>Animals</h2>
+  </div>
   <div class="grid-container">
     <div class="grid">
-      {% for card in cards %}
+      {% for card in animals %}
       <div class="grid-box {{ ['red', 'green', 'orange', 'blue'][loop.index0 % 4] }}" data-audio="{{ url_for('static', filename='audio/' + card.audio) }}">
         <img src="{{ url_for('static', filename='img/' + card.img) }}" alt="{{ card.en }}" />
         <div class="label">{{ card.en }}</div>
@@ -25,11 +37,56 @@
       {% endfor %}
       
       <!-- Empty boxes to fill the grid -->
-      {% for i in range(20 - cards|length) %}
+      {% for i in range(12 - animals|length) %}
       <div class="grid-box {{ ['red', 'green', 'orange', 'blue'][i % 4] }}"></div>
       {% endfor %}
     </div>
   </div>
+  {% endif %}
+
+  <!-- Objects Section -->
+  {% if objects %}
+  <div id="objects" class="section-header">
+    <h2>Objects</h2>
+  </div>
+  <div class="grid-container">
+    <div class="grid">
+      {% for card in objects %}
+      <div class="grid-box {{ ['red', 'green', 'orange', 'blue'][loop.index0 % 4] }}" data-audio="{{ url_for('static', filename='audio/' + card.audio) }}">
+        <img src="{{ url_for('static', filename='img/' + card.img) }}" alt="{{ card.en }}" />
+        <div class="label">{{ card.en }}</div>
+      </div>
+      {% endfor %}
+      
+      <!-- Empty boxes to fill the grid -->
+      {% for i in range(20 - objects|length) %}
+      <div class="grid-box {{ ['red', 'green', 'orange', 'blue'][i % 4] }}"></div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Nature Section -->
+  {% if nature %}
+  <div id="nature" class="section-header">
+    <h2>Nature</h2>
+  </div>
+  <div class="grid-container">
+    <div class="grid">
+      {% for card in nature %}
+      <div class="grid-box {{ ['red', 'green', 'orange', 'blue'][loop.index0 % 4] }}" data-audio="{{ url_for('static', filename='audio/' + card.audio) }}">
+        <img src="{{ url_for('static', filename='img/' + card.img) }}" alt="{{ card.en }}" />
+        <div class="label">{{ card.en }}</div>
+      </div>
+      {% endfor %}
+      
+      <!-- Empty boxes to fill the grid -->
+      {% for i in range(20 - nature|length) %}
+      <div class="grid-box {{ ['red', 'green', 'orange', 'blue'][i % 4] }}"></div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
 
   <div class="footer">
     <p class="copyright">© 2025 Learn Ngemba. Open educational project for Ngemba language preservation.</p>

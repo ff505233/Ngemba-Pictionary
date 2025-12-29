@@ -1,11 +1,291 @@
 [
   {
-    "id": "banana",
-    "en": "Banana",
+    "id": "Cow",
+    "en": "Cow",
     "ng": "—",
-    "img": "banana.jpg",
-    "audio": "banana.mp3",
-    "category": "concrete_nouns"
+    "img": "beouf-cow.png",
+    "audio": "beouf-cow.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "animals"
+  },
+  {
+    "id": "Bird",
+    "en": "Bird",
+    "ng": "—",
+    "img": "Bird-Oiseau.png",
+    "audio": "Bird_Oiseau.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "animals"
+  },
+  {
+    "id": "Cat",
+    "en": "Cat",
+    "ng": "—",
+    "img": "Chat_Cat.png",
+    "audio": "Chat_Cat.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "animals"
+  },
+  {
+    "id": "Chicken",
+    "en": "Chicken",
+    "ng": "—",
+    "img": "Chicken_Poulet.png",
+    "audio": "Chicken_Poulet.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "animals"
+  },
+  {
+    "id": "Dog",
+    "en": "Dog",
+    "ng": "—",
+    "img": "Chien_dog.png",
+    "audio": "Chien_dog.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "animals"
+  },
+  {
+    "id": "Crocodile",
+    "en": "Crocodile",
+    "ng": "—",
+    "img": "crocodile.png",
+    "audio": "Crocodile.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "animals"
+  },
+  {
+    "id": "Moose",
+    "en": "Moose",
+    "ng": "—",
+    "img": "Moose_souris.png",
+    "audio": "Moose_souris.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "animals"
+  },
+  {
+    "id": "Sheep",
+    "en": "Sheep",
+    "ng": "—",
+    "img": "Mouton-sheep.png",
+    "audio": "Mouton-sheep.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "animals"
+  },
+  {
+    "id": "Pig",
+    "en": "Pig",
+    "ng": "—",
+    "img": "Pig_porc.png",
+    "audio": "Pig_porc.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "animals"
+  },
+  {
+    "id": "Rat",
+    "en": "Rat",
+    "ng": "—",
+    "img": "rat.png",
+    "audio": "rat.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "animals"
+  },
+  {
+    "id": "Turtle",
+    "en": "Turtle",
+    "ng": "—",
+    "img": "Turtle-tortue.png",
+    "audio": "Turtle-tortue.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "animals"
+  },
+  {
+    "id": "Goat",
+    "en": "Goat",
+    "ng": "—",
+    "img": "Goat_Chevre.png",
+    "audio": "Goat_Chevre.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "animals"
+  },
+  {
+    "id": "Assiettes",
+    "en": "Assiettes",
+    "ng": "—",
+    "img": "Assiettes-plate.png",
+    "audio": "Assiettes-plate.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Bottle",
+    "en": "Bottle",
+    "ng": "—",
+    "img": "Boutielle-bottle.png",
+    "audio": "Boutielle-bottle.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Pot",
+    "en": "Pot",
+    "ng": "—",
+    "img": "Casserole-pot.png",
+    "audio": "Casserole-pot.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Hat",
+    "en": "Hat",
+    "ng": "—",
+    "img": "Chapeau-hat.png",
+    "audio": "Chapeau-hat.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Chair",
+    "en": "Chair",
+    "ng": "—",
+    "img": "Chaise-chair.png",
+    "audio": "Chaise-chair.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Shoes",
+    "en": "Shoes",
+    "ng": "—",
+    "img": "Chaussures-shoes.png",
+    "audio": "Chaussures-shoes.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Knife",
+    "en": "Knife",
+    "ng": "—",
+    "img": "Courteau-knife.png",
+    "audio": "Courteau-knife.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Spoon",
+    "en": "Spoon",
+    "ng": "—",
+    "img": "Cuillere-spoon.png",
+    "audio": "Cuillere-spoon.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Bowl",
+    "en": "Bowl",
+    "ng": "—",
+    "img": "Cuvette-bowl.png",
+    "audio": "Cuvette-bowl.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Shirt",
+    "en": "Shirt",
+    "ng": "—",
+    "img": "haut-shirt.png",
+    "audio": "haut-shirt.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Bed",
+    "en": "Bed",
+    "ng": "—",
+    "img": "Lit-bed.png",
+    "audio": "Lit-bed.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Book",
+    "en": "Book",
+    "ng": "—",
+    "img": "Livre-book.png",
+    "audio": "Livre-book.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "House",
+    "en": "House",
+    "ng": "—",
+    "img": "Maison-house.png",
+    "audio": "Maison-house.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Door",
+    "en": "Door",
+    "ng": "—",
+    "img": "Porte-door.png",
+    "audio": "Porte-door.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Bag",
+    "en": "Bag",
+    "ng": "—",
+    "img": "Sac-bag.png",
+    "audio": "Sac-bag.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Table",
+    "en": "Table",
+    "ng": "—",
+    "img": "Table.png",
+    "audio": "Table.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Cup",
+    "en": "Cup",
+    "ng": "—",
+    "img": "Tasse-cup.png",
+    "audio": "Tasse-cup.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Telephone",
+    "en": "Telephone",
+    "ng": "—",
+    "img": "Telephone.png",
+    "audio": "Telephone.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Rope",
+    "en": "Rope",
+    "ng": "—",
+    "img": "Cord-rope.png",
+    "audio": "Cord-rope.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
+  },
+  {
+    "id": "Basket",
+    "en": "Basket",
+    "ng": "—",
+    "img": "Panier-basket.png",
+    "audio": "Panier-basket.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "objects"
   },
   {
     "id": "Bitter",
@@ -117,7 +397,7 @@
     "en":"New",
     "ng":"—",
     "img":"Nouveau-new.png",
-    "audio":"Nouveau-new.mp3",
+    "audio":"Nouveau-New.mp3",
     "category":"adjectives"
   },
   {
@@ -153,7 +433,194 @@
     "audio":"Grand-big.mp3",
     "category":"adjectives",
     "color": "orange"
+  },
+  {
+    "id":"Yes",
+    "en":"Yes",
+    "ng":"—",
+    "img":"Oui-yes.png",
+    "audio":"Oui-yes.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"No",
+    "en":"No",
+    "ng":"—",
+    "img":"Non-no.png",
+    "audio":"Non-no.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"Help me",
+    "en":"Help me",
+    "ng":"—",
+    "img":"Aide moi-help me.png",
+    "audio":"Aide moi-help me.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"Wait",
+    "en":"Wait",
+    "ng":"—",
+    "img":"Attends-wait.png",
+    "audio":"Attends-wait.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"It's not good",
+    "en":"It's not good",
+    "ng":"—",
+    "img":"C'est pas bon - it's not good.png",
+    "audio":"Cest pas bon-its not good.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"It's finished",
+    "en":"It's finished",
+    "ng":"—",
+    "img":"C'est fini-its finished.png",
+    "audio":"Cest fini-its finished-its done.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"Sleep well",
+    "en":"Sleep well",
+    "ng":"—",
+    "img":"Dors bien-sleep well.png",
+    "audio":"Dors bien-sleep well.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"I like this",
+    "en":"I like this",
+    "ng":"—",
+    "img":"Jaime ca-I like this.png",
+    "audio":"Jaime ca-I like this.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"I don't like this",
+    "en":"I don't like this",
+    "ng":"—",
+    "img":"Je naime pas ca-I dont like this.png",
+    "audio":"Je naime pas ca- I don’t like this-that.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"Go over there",
+    "en":"Go over there",
+    "ng":"—",
+    "img":"Va la bas-go over there.png",
+    "audio":"Va la bas- go over there.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"Come here",
+    "en":"Come here",
+    "ng":"—",
+    "img":"Viens ici-come here.png",
+    "audio":"Viens ici-come here.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"See you later",
+    "en":"See you later",
+    "ng":"—",
+    "img":"A plus tards-see you later .png",
+    "audio":"A plus tart- see you later.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"Goodbye",
+    "en":"Goodbye",
+    "ng":"—",
+    "img":"A plus tards-see you later .png",
+    "audio":"Au revoir-goodbye.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"Welcome",
+    "en":"Welcome",
+    "ng":"—",
+    "img":"Bienvenue-Welcome.png",
+    "audio":"Bienvenue-Welcome.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"Goodmorning",
+    "en":"Goodmorning",
+    "ng":"—",
+    "img":"Bonjour-goodmorning.png",
+    "audio":"Bonjour-goodmorning.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"It's good",
+    "en":"It's good",
+    "ng":"—",
+    "img":"Jaime ca-I like this.png",
+    "audio":"C’est bon-its good.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"How are you",
+    "en":"How are you",
+    "ng":"—",
+    "img":"Comment ca va- how are you.png",
+    "audio":"Comment ca va- how are you.mp3",
+    "category":"elementary_phrases",
+    "color":"red"
+  },
+  {
+    "id":"Okay",
+    "en":"Okay",
+    "ng":"—",
+    "img":"Jaime ca-I like this.png",
+    "audio":"D’accord-okay.mp3",
+    "category":"elementary_phrases",
+    "color":"green"
+  },
+  {
+    "id":"Sorry",
+    "en":"Sorry",
+    "ng":"—",
+    "img":"Desole-sorry.png",
+    "audio":"Desole-sorry.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"I'm hungry",
+    "en":"I'm hungry",
+    "ng":"—",
+    "img":"J'ai faim-im hungry.png",
+    "audio":"J’ai faim-im hungry.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"I'm thirsty",
+    "en":"I'm thirsty",
+    "ng":"—",
+    "img":"J'ai soif-im thirsty.png",
+    "audio":"J’ai soif- im thirsty.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"Thanks/ Thank you",
+    "en":"Thanks",
+    "ng":"—",
+    "img":"Merci-thanks.png",
+    "audio":"Merci-thanks.mp3",
+    "category":"elementary_phrases"
+  },
+  {
+    "id":"Please",
+    "en":"Please",
+    "ng":"—",
+    "img":"S'il te plait- please.png",
+    "audio":"S’il te plait- please.mp3",
+    "category":"elementary_phrases"
   }
+  
 
 
 ]

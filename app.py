@@ -17,7 +17,13 @@ def home():
 def concrete_nouns():
     words = load_words()
     cards = [w for w in words if w.get("category") == "concrete_nouns"]
-    return render_template("concrete_nouns.html", cards=cards)
+    
+    # Organize by subcategory
+    animals = [w for w in cards if w.get("subcategory") == "animals"]
+    objects = [w for w in cards if w.get("subcategory") == "objects"]
+    nature = [w for w in cards if w.get("subcategory") == "nature"]
+    
+    return render_template("concrete_nouns.html", animals=animals, objects=objects, nature=nature)
 
 @app.get("/core-verbs")
 def core_verbs():

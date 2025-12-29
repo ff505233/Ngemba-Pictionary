@@ -25,7 +25,7 @@
       {% endfor %}
       
       <!-- Empty boxes to fill the grid -->
-      {% for i in range(20 - cards|length) %}
+      {% for i in range(18 - cards|length) %}
       <div class="grid-box {{ ['red', 'green', 'orange', 'blue'][i % 4] }}"></div>
       {% endfor %}
     </div>
