@@ -288,6 +288,330 @@
     "subcategory": "objects"
   },
   {
+    "id": "Tree",
+    "en": "Tree",
+    "ng": "—",
+    "img": "Abre-tree.png",
+    "audio": "Abre-tree.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Path",
+    "en": "Path",
+    "ng": "—",
+    "img": "Chemin-path.png",
+    "audio": "Chemin-path.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Sky",
+    "en": "Sky",
+    "ng": "—",
+    "img": "Ciel-sky.png",
+    "audio": "Ciel-sky.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Hill",
+    "en": "Hill",
+    "ng": "—",
+    "img": "Colline-hill.png",
+    "audio": "Colline-hill.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Water",
+    "en": "Water",
+    "ng": "—",
+    "img": "Eau-water.png",
+    "audio": "Eau-water.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Star",
+    "en": "Star",
+    "ng": "—",
+    "img": "Etoile-star.png",
+    "audio": "Etoile-star.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Fire",
+    "en": "Fire",
+    "ng": "—",
+    "img": "Feu-fire.png",
+    "audio": "Feu-fire.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Leaf",
+    "en": "Leaf",
+    "ng": "—",
+    "img": "Feuille-leaf.png",
+    "audio": "Feuille-leaf.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Forest",
+    "en": "Forest",
+    "ng": "—",
+    "img": "Foret-forest.png",
+    "audio": "Foret-forest.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Grass",
+    "en": "Grass",
+    "ng": "—",
+    "img": "Herbe-grass.png",
+    "audio": "Herbe-grass.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Moon",
+    "en": "Moon",
+    "ng": "—",
+    "img": "Lune-moon.png",
+    "audio": "Lune-moon.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Mountain",
+    "en": "Mountain",
+    "ng": "—",
+    "img": "Montagne-mountain.png",
+    "audio": "Montagne-mountain.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Cloud",
+    "en": "Cloud",
+    "ng": "—",
+    "img": "Nuage-cloud.png",
+    "audio": "Nuage-cloud.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Rock",
+    "en": "Rock",
+    "ng": "—",
+    "img": "Pierre-rock.png",
+    "audio": "Pierre-rock.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Rain",
+    "en": "Rain",
+    "ng": "—",
+    "img": "Pluie-rain.png",
+    "audio": "Pluie-rain.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "River",
+    "en": "River",
+    "ng": "—",
+    "img": "Riviere-river.png",
+    "audio": "Riviere-river.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Road",
+    "en": "Road",
+    "ng": "—",
+    "img": "Route-road.png",
+    "audio": "Route-road.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Sun",
+    "en": "Sun",
+    "ng": "—",
+    "img": "Soleil-sun.png",
+    "audio": "Soleil-sun.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Wind",
+    "en": "Wind",
+    "ng": "—",
+    "img": "Vent-wind.png",
+    "audio": "Vent-wind.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "Soil",
+    "en": "Soil",
+    "ng": "—",
+    "img": "Terre-soil.png",
+    "audio": "Terre-soil.mp3",
+    "category": "concrete_nouns",
+    "subcategory": "nature"
+  },
+  {
+    "id": "To help",
+    "en": "To help",
+    "ng": "—",
+    "img": "Aider-to help.png",
+    "audio": "Aider-to help.mp3",
+    "category": "core_verbs"
+  },
+  {
+    "id": "To like",
+    "en":"To like",
+    "ng":"—",
+    "img":"Aimer-to like.png",
+    "audio":"Aimer-to like.mp3",
+    "category":"core_verbs"
+  },
+  {
+    "id": "To learn",
+    "en":"To learn",
+    "ng":"—",
+    "img":"Apprendre-to learn.png",
+    "audio":"Apprendre-to learn.mp3",
+    "category":"core_verbs"
+  },
+  {
+    "id": "To have",
+    "en":"To have",
+    "ng":"—",
+    "img":"Avoir-to have.png",
+    "audio":"Avoir-to have.mp3",
+    "category":"core_verbs"
+  },
+  {
+    "id": "To drink",
+    "en":"To drink",
+    "ng":"—",
+    "img":"Boire-to drink.png",
+    "audio":"Boire-to drink.mp3",
+    "category":"core_verbs"
+  },
+  {
+    "id": "To give",
+    "en":"To give",
+    "ng":"—",
+    "img":"Donner-to give.png",
+    "audio":"Donner-to give.mp3",
+    "category":"core_verbs"
+  },
+  {
+    "id": "To sleep",
+    "en":"To sleep",
+    "ng":"—",
+    "img":"Dormir-to sleep.png",
+    "audio":"Dormir-to sleep.mp3",
+    "category":"core_verbs"
+  },
+  {
+    "id": "To listen",
+    "en":"To listen",
+    "ng":"—",
+    "img":"Entendre-to listen.png",
+    "audio":"Entendre-to listen.mp3",
+    "category":"core_verbs"
+  },
+  {
+    "id": "To be",
+    "en":"To be",
+    "ng":"—",
+    "img":"Etre-to be.png",
+    "audio":"Etre-to be.mp3",
+    "category":"core_verbs"
+  },
+  {
+    "id": "To do",
+    "en":"To do",
+    "ng":"—",
+    "img":"Faire-to do.png",
+    "audio":"Faire-to do.mp3",
+    "category":"core_verbs"
+  },
+  {
+    "id": "To walk",
+    "en":"To walk",
+    "ng":"—",
+    "img":"Marcher-to walk.png",
+    "audio":"Marcher-to walk.mp3",
+    "category":"core_verbs"
+  },
+  {
+    "id": "To eat",
+    "en":"To eat",
+    "ng":"—",
+    "img":"Manger-to eat.png",
+    "audio":"Manger-to eat.mp3",
+    "category":"core_verbs"
+  },
+  {
+    "id": "To speak",
+    "en":"To speak",
+    "ng":"—",
+    "img":"Parler-to speak.png",
+    "audio":"Parler-to speak.mp3",
+    "category":"core_verbs"
+  },
+  {
+    "id": "To leave",
+    "en":"To leave",
+    "ng":"—",
+    "img":"Patir-to leave.png",
+    "audio":"Patir-to leave.mp3",
+    "category":"core_verbs"
+  },
+  {    
+    "id": "To know",
+    "en":"To know",
+    "ng":"—",
+    "img":"Savoire-to know.png",
+    "audio":"Savoire-to know.mp3",
+    "category":"core_verbs"
+  },
+  {
+    "id": "To come",
+    "en":"To come",
+    "ng":"—",
+    "img":"Venir-to come.png",
+    "audio":"Venir-to come.mp3",
+    "category":"core_verbs"
+  },
+  {
+    "id": "To see",
+    "en":"To see",
+    "ng":"—",
+    "img":"Voire-to see.png",
+    "audio":"Voire-to see.mp3",
+    "category":"core_verbs"
+  },
+  {
+    "id": "To want",
+    "en": "To want",
+    "ng": "—",
+    "img": "Vouloire- to want.png",
+    "audio": "Vouloire- to want.mp3",
+    "category": "core_verbs"
+  },
+  {
     "id": "Bitter",
     "en": "Bitter",
     "ng": "—",
