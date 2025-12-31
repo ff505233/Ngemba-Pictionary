@@ -48,7 +48,7 @@ translations = {
     "I'm hungry": "J'ai faim", "I'm thirsty": "J'ai soif", 'I like this': "J'aime ça",
     "I don't like this": "Je n'aime pas ça", 'Thanks': 'Merci', 'No': 'Non', 'Yes': 'Oui',
     'Please': "S'il te plaît", 'Wait': 'Attends', 'Go over there': 'Va là-bas', 'Come here': 'Viens ici',
-    'Goodmorning': 'Bonjour', "It's good": "C'est bon", 'Okay': "D'accord"
+    'Good morning': 'Bonjour', "It's good": "C'est bon", 'Okay': "D'accord"
 }
 
 # Add French translations to each word
