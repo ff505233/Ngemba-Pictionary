@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Choose Your Language - Learn Ngemba</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        font-family: system-ui, -apple-system, Arial, sans-serif;
+        background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+      .blur-background {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: 
+          radial-gradient(circle at 20% 50%, rgba(211, 47, 47, 0.3) 0%, transparent 50%),
+          radial-gradient(circle at 80% 50%, rgba(46, 125, 50, 0.3) 0%, transparent 50%),
+          radial-gradient(circle at 50% 80%, rgba(253, 216, 53, 0.3) 0%, transparent 50%);
+        filter: blur(60px);
+        animation: float 8s ease-in-out infinite;
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-20px); }
+      }
+      .container {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        backdrop-filter: blur(10px);
+        background-color: rgba(26, 26, 26, 0.8);
+        padding: 60px 80px;
+        border-radius: 20px;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        border: 1px solid rgba(255,255,255,0.1);
+      }
+      h1 {
+        font-size: 48px;
+        color: #ffffff;
+        margin-bottom: 16px;
+        font-weight: 700;
+      }
+      .subtitle {
+        font-size: 22px;
+        color: #cccccc;
+        margin-bottom: 50px;
+        font-weight: 400;
+      }
+      .language-buttons {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+      }
+      .lang-btn {
+        background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);
+        color: white;
+        border: none;
+        padding: 24px 60px;
+        font-size: 28px;
+        font-weight: 700;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 8px 20px rgba(211, 47, 47, 0.4);
+        text-decoration: none;
+        display: inline-block;
+      }
+      .lang-btn:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 30px rgba(211, 47, 47, 0.6);
+      }
+      .lang-btn:active {
+        transform: translateY(-2px);
+      }
+      .lang-btn.french {
+        background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%);
+        box-shadow: 0 8px 20px rgba(46, 125, 50, 0.4);
+      }
+      .lang-btn.french:hover {
+        box-shadow: 0 12px 30px rgba(46, 125, 50, 0.6);
+      }
+      .flag-stripe {
+        height: 8px;
+        background: linear-gradient(to right, #2e7d32 0%, #2e7d32 33.33%, #c62828 33.33%, #c62828 66.66%, #fdd835 66.66%, #fdd835 100%);
+        margin-top: 40px;
+        border-radius: 4px;
+      }
+      @media (max-width: 768px) {
+        .container { padding: 40px 30px; }
+        h1 { font-size: 36px; }
+        .subtitle { font-size: 18px; }
+        .language-buttons { flex-direction: column; gap: 20px; }
+        .lang-btn { padding: 20px 50px; font-size: 24px; width: 100%; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="blur-background"></div>
+    <div class="container">
+      <h1>Welcome to Learn Ngemba</h1>
+      <p class="subtitle">Choose your preferred language</p>
+      <div class="language-buttons">
+        <button class="lang-btn english" onclick="selectLanguage('en')">English</button>
+        <button class="lang-btn french" onclick="selectLanguage('fr')">Français</button>
+      </div>
+      <div class="flag-stripe"></div>
+    </div>
+
+    <script>
+      function selectLanguage(lang) {
+        localStorage.setItem('ngembaLanguage', lang);
+        window.location.href = '/home?lang=' + lang;
+      }
+    </script>
+  </body>
+</html>

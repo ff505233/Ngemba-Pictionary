@@ -1,0 +1,46 @@
+{% set translations = {
+  'en': {
+    'concrete_nouns': 'Concrete Nouns',
+    'core_verbs': 'Core Verbs',
+    'adjectives': 'Adjectives',
+    'elementary_phrases': 'Elementary Phrases',
+    'home': 'Home',
+    'learn_ngemba': 'LearnNgemba',
+    'discover': 'Discover Ngemba words and meanings through interactive pictures and real speaker recordings.',
+    'about_ngemba': 'Ngemba is a language spoken in the western part of Cameroon. It includes parts of the Bamendjou, Bamenka, Bamenda, Bafounda, Bansoa and Bamougoum villages. This Ngemba learning tool features the voices of speakers with the Ngemba dialect spoken in Bamendjou. Each section has cards with images and a written word in French or English. When you click the image, a recording of the word or sentence in Ngemba will play. You may have to turn your volume up if you cannot hear well.',
+    'get_ready': 'Get ready to learn Ngemba!',
+    'start_learning': 'Start Learning',
+    'thank_you': 'Special thank you to the speakers who contributed to this language learning tool:',
+    'copyright': '© 2025 Learn Ngemba. Open educational project for Ngemba language preservation.',
+    'learn_everyday': 'Learn everyday objects in Ngemba',
+    'learn_actions': 'Learn essential actions in Ngemba',
+    'describe_world': 'Describe the world in Ngemba',
+    'master_phrases': 'Master basic conversational phrases',
+    'animals': 'Animals',
+    'objects': 'Objects',
+    'nature': 'Nature'
+  },
+  'fr': {
+    'concrete_nouns': 'Noms Concrets',
+    'core_verbs': 'Verbes Principaux',
+    'adjectives': 'Adjectifs',
+    'elementary_phrases': 'Phrases Élémentaires',
+    'home': 'Accueil',
+    'learn_ngemba': 'Apprendre Ngemba',
+    'discover': 'Découvrez les mots et significations Ngemba à travers des images interactives et des enregistrements de locuteurs réels.',
+    'about_ngemba': 'Le Ngemba est une langue parlée dans la partie ouest du Cameroun. Il comprend des parties des villages de Bamendjou, Bamenka, Bamenda, Bafounda, Bansoa et Bamougoum. Cet outil d\'apprentissage Ngemba présente les voix de locuteurs avec le dialecte Ngemba parlé à Bamendjou. Chaque section contient des cartes avec des images et un mot écrit en français ou en anglais. Lorsque vous cliquez sur l\'image, un enregistrement du mot ou de la phrase en Ngemba sera joué. Vous devrez peut-être augmenter le volume si vous ne pouvez pas bien entendre.',
+    'get_ready': 'Préparez-vous à apprendre le Ngemba !',
+    'start_learning': 'Commencer l\'Apprentissage',
+    'thank_you': 'Merci spécial aux locuteurs qui ont contribué à cet outil d\'apprentissage linguistique :',
+    'copyright': '© 2025 Apprendre Ngemba. Projet éducatif ouvert pour la préservation de la langue Ngemba.',
+    'learn_everyday': 'Apprenez les objets du quotidien en Ngemba',
+    'learn_actions': 'Apprenez les actions essentielles en Ngemba',
+    'describe_world': 'Décrivez le monde en Ngemba',
+    'master_phrases': 'Maîtrisez les phrases conversationnelles de base',
+    'animals': 'Animaux',
+    'objects': 'Objets',
+    'nature': 'Nature'
+  }
+} %}
+
+{% set t = translations[lang] if lang in translations else translations['en'] %}
