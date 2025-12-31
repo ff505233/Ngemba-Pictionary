@@ -56,7 +56,7 @@
     let currentAudio = null;
 
     document.querySelectorAll('.grid-box').forEach(box => {
-      box.addEventListener('click', function() {
+      const playAudio = function() {
         const audioSrc = this.dataset.audio;
         if (!audioSrc) return;
 
@@ -66,7 +66,15 @@
         }
 
         currentAudio = new Audio(audioSrc);
-        currentAudio.play();
+        currentAudio.play().catch(error => {
+          console.log('Audio playback failed:', error);
+        });
+      };
+
+      box.addEventListener('click', playAudio);
+      box.addEventListener('touchend', function(e) {
+        e.preventDefault();
+        playAudio.call(this);
       });
     });
 
