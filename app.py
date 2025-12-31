@@ -29,7 +29,10 @@ TRANSLATIONS = {
     'objects': 'Objects',
     'nature': 'Nature',
     'contact': 'Contact',
-    'contact_message': 'Contact website creator <strong>Francis Fokoue-Nkoutche</strong> at <a href="mailto:fokouefrancis5@gmail.com">fokouefrancis5@gmail.com</a> if you have any questions or wish to add words.'
+    'contact_message': 'Contact website creator <strong>Francis Fokoue-Nkoutche</strong> at <a href="mailto:fokouefrancis5@gmail.com">fokouefrancis5@gmail.com</a> if you have any questions or wish to add words.',
+    'search_placeholder': 'Search for a word...',
+    'search_button': 'Search',
+    'word_not_available': 'Word not available'
   },
   'fr': {
     'concrete_nouns': 'Noms Concrets',
@@ -52,7 +55,10 @@ TRANSLATIONS = {
     'objects': 'Objets',
     'nature': 'Nature',
     'contact': 'Contact',
-    'contact_message': 'Contactez le créateur du site <strong>Francis Fokoue-Nkoutche</strong> à <a href="mailto:fokouefrancis5@gmail.com">fokouefrancis5@gmail.com</a> si vous avez des questions ou souhaitez ajouter des mots.'
+    'contact_message': 'Contactez le créateur du site <strong>Francis Fokoue-Nkoutche</strong> à <a href="mailto:fokouefrancis5@gmail.com">fokouefrancis5@gmail.com</a> si vous avez des questions ou souhaitez ajouter des mots.',
+    'search_placeholder': 'Rechercher un mot...',
+    'search_button': 'Rechercher',
+    'word_not_available': 'Mot non disponible'
   }
 }
 

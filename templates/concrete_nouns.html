@@ -20,11 +20,11 @@
 
   <div class="search-container">
     <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Search for a word..." />
-      <button onclick="searchWord()">Search</button>
+      <input type="text" id="searchInput" placeholder="{{ t.search_placeholder }}" />
+      <button onclick="searchWord()">{{ t.search_button }}</button>
     </div>
   </div>
-  <div id="searchMessage" class="search-message">Word not available</div>
+  <div id="searchMessage" class="search-message">{{ t.word_not_available }}</div>
 
   <div class="hero">
     <h1>{{ t.concrete_nouns }}</h1>
@@ -33,19 +33,19 @@
 
   <!-- Quick Navigation -->
   <div class="quick-nav">
-    <a href="#animals" class="quick-nav-link">{{ t.animals }}</a>
-    <a href="#objects" class="quick-nav-link">{{ t.objects }}</a>
     <a href="#nature" class="quick-nav-link">{{ t.nature }}</a>
+    <a href="#objects" class="quick-nav-link">{{ t.objects }}</a>
+    <a href="#animals" class="quick-nav-link">{{ t.animals }}</a>
   </div>
 
-  <!-- Animals Section -->
-  {% if animals %}
-  <div id="animals" class="section-header">
-    <h2>{{ t.animals }}</h2>
+  <!-- Nature Section -->
+  {% if nature %}
+  <div id="nature" class="section-header">
+    <h2>{{ t.nature }}</h2>
   </div>
   <div class="grid-container">
     <div class="grid">
-      {% for card in animals %}
+      {% for card in nature %}
       <div class="grid-box {{ ['red', 'green', 'orange', 'blue'][loop.index0 % 4] }}" data-audio="{{ url_for('static', filename='audio/' + card.audio) }}">
         <img src="{{ url_for('static', filename='img/' + card.img) }}" alt="{{ card.get(lang, card.en) }}" />
         <div class="label">{{ card.get(lang, card.en) }}</div>
@@ -53,7 +53,7 @@
       {% endfor %}
       
       <!-- Empty boxes to fill the grid -->
-      {% for i in range(12 - animals|length) %}
+      {% for i in range(20 - nature|length) %}
       <div class="grid-box {{ ['red', 'green', 'orange', 'blue'][i % 4] }}"></div>
       {% endfor %}
     </div>
@@ -82,14 +82,14 @@
   </div>
   {% endif %}
 
-  <!-- Nature Section -->
-  {% if nature %}
-  <div id="nature" class="section-header">
-    <h2>{{ t.nature }}</h2>
+  <!-- Animals Section -->
+  {% if animals %}
+  <div id="animals" class="section-header">
+    <h2>{{ t.animals }}</h2>
   </div>
   <div class="grid-container">
     <div class="grid">
-      {% for card in nature %}
+      {% for card in animals %}
       <div class="grid-box {{ ['red', 'green', 'orange', 'blue'][loop.index0 % 4] }}" data-audio="{{ url_for('static', filename='audio/' + card.audio) }}">
         <img src="{{ url_for('static', filename='img/' + card.img) }}" alt="{{ card.get(lang, card.en) }}" />
         <div class="label">{{ card.get(lang, card.en) }}</div>
@@ -97,7 +97,7 @@
       {% endfor %}
       
       <!-- Empty boxes to fill the grid -->
-      {% for i in range(20 - nature|length) %}
+      {% for i in range(12 - animals|length) %}
       <div class="grid-box {{ ['red', 'green', 'orange', 'blue'][i % 4] }}"></div>
       {% endfor %}
     </div>
@@ -105,7 +105,7 @@
   {% endif %}
 
   <div class="footer">
-    <p class="copyright">© 2025 Learn Ngemba. Open educational project for Ngemba language preservation.</p>
+    <p class="copyright">{{ t.copyright }}</p>
     <div class="flag-stripe"></div>
   </div>
 

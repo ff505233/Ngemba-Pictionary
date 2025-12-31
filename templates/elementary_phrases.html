@@ -20,11 +20,11 @@
 
   <div class="search-container">
     <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Search for a word..." />
-      <button onclick="searchWord()">Search</button>
+      <input type="text" id="searchInput" placeholder="{{ t.search_placeholder }}" />
+      <button onclick="searchWord()">{{ t.search_button }}</button>
     </div>
   </div>
-  <div id="searchMessage" class="search-message">Word not available</div>
+  <div id="searchMessage" class="search-message">{{ t.word_not_available }}</div>
 
   <div class="hero">
     <h1>{{ t.elementary_phrases }}</h1>
@@ -48,7 +48,7 @@
   </div>
 
   <div class="footer">
-    <p class="copyright">© 2025 Learn Ngemba. Open educational project for Ngemba language preservation.</p>
+    <p class="copyright">{{ t.copyright }}</p>
     <div class="flag-stripe"></div>
   </div>
 
