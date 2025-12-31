@@ -351,16 +351,86 @@
         .main-nav { padding: 0 24px; font-size: 16px; }
         .main-nav a { padding: 16px 16px; }
         .main-nav a.home-btn { padding: 10px 14px 14px 14px; }
+        .search-container {
+          position: static;
+          margin: 16px 24px 0 24px;
+        }
+        .search-box {
+          width: 100%;
+          padding: 12px;
+        }
+        .search-box input {
+          width: 100%;
+        }
+        .section-header {
+          margin-top: 24px;
+        }
       }
       @media (max-width: 480px) {
         .hero h1 { font-size: 24px; }
-        .hero p { font-size: 14px; }
+        .hero p { font-size: 14px; padding: 0 12px; }
         .grid { grid-template-columns: repeat(2, 1fr); }
         .grid-box { min-height: 180px; }
         .footer h2 { font-size: 24px; }
-        .main-nav { padding: 0 12px; font-size: 14px; }
-        .main-nav a { padding: 12px 10px; }
-        .main-nav a.home-btn { padding: 8px 12px 12px 12px; }
+        .main-nav { 
+          padding: 0 8px; 
+          font-size: 12px;
+          flex-wrap: wrap;
+          gap: 4px;
+        }
+        .main-nav a { 
+          padding: 10px 8px; 
+          font-size: 12px;
+        }
+        .main-nav a.contact-btn {
+          padding: 8px 10px 10px 10px;
+          font-size: 12px;
+        }
+        .main-nav a.home-btn { 
+          padding: 8px 10px 10px 10px; 
+          font-size: 12px;
+        }
+        .search-container {
+          position: static;
+          margin: 12px 12px 0 12px;
+        }
+        .search-box {
+          width: 100%;
+          padding: 10px 12px;
+        }
+        .search-box input {
+          width: 100%;
+          font-size: 14px;
+        }
+        .search-box button {
+          padding: 8px 12px;
+          font-size: 13px;
+        }
+        .quick-nav {
+          flex-wrap: wrap;
+          gap: 8px;
+          padding: 0 12px;
+        }
+        .quick-nav-link {
+          padding: 10px 16px;
+          font-size: 14px;
+        }
+        .section-header {
+          margin-top: 20px;
+          padding: 0 12px;
+        }
+        .section-header h2 {
+          font-size: 24px;
+        }
+        .grid-container {
+          padding: 0 12px 40px;
+        }
+        .about-section h2 {
+          font-size: 28px;
+        }
+        .about-section p {
+          font-size: 16px;
+        }
       }
 
 
